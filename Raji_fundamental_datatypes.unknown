@@ -1,0 +1,80 @@
+#Fundamental Data Types
+#In python there are four types of fundamental data types. They are 
+#1.Int
+#2.float
+#3.bool
+#4.complex
+
+
+#1) int : int is used to allocate memory space for storing integral values like Whole numbers without any decimal point 
+'''a=10
+print(a,type(a))
+
+
+_a=25
+print(_a,type(_a))
+
+fu=256
+print(fu,type(fu))
+
+Num = 236
+print(Num,type(Num))
+
+lk=523
+print(lk,type(lk))'''
+
+
+
+
+#float : float is used to allocate memory space for storing Numbers with a decimal point or numbers 
+
+'''a=8.1
+print(a,type(a))
+
+
+m=3.3333
+print(m,type(m))
+
+n=9.232
+print(n,type(n))
+
+lk = 2.363
+print(lk,type(lk))
+
+n_1=52.8
+print(n_1,type(n_1))'''
+
+# boolean is used to allocate memory space for storing boolean values. In general there are two types of boolean values: true, false.
+
+'''a=True
+print(a)
+
+
+b=True
+print(b,type(b))
+
+num1=False
+print(num1,type(num1))
+
+m =True
+print(m,type(m))
+
+num_1=True
+print(num_1,type(num_1))'''
+
+#complex is used to allocate memory for storing compleax numbers, which contains real and imagenary parts.
+
+
+'''n=5+3j
+print(n,type(n))
+
+
+b=i+9j
+print(b,type(b))
+
+c=9+3j
+print(c,type(c))
+
+d = 2-96j
+print(d,type(d))'''
+
