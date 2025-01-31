@@ -1,0 +1,39 @@
+NONE DATA TYPE
+
+THE VALUE OF NONE TYPE IS NONE.
+NONE IS A PREDEFINED VALUE FOR NONE TYPE DATA TYPE.
+AN OBJECT OF NONE TYPE CAN'T BE CREATE BCOZ IT CONTAINS SINGLE VALUE CALLED NONE. THE VALUE NONE IS NOT FALSE,SPACE,EMPTY. HENCE NONE ISSELF IS THE VALUE. IF WE WANT TO MAKE THE OBJECT AND WHOSE MEMORY SPACE TO DESTROY/REMOVE BY THE GARBAGE COLLECTOR THEN WHOSE OBJECT VALUE MUST BE MADE AS NONE.
+IF A FUNCTUION IS NOT RETURNING ANY VALUE THEN ITS VALUE IS NONE.
+
+EX:
+a1={10:3.4,20:7.8,30:9.7,40:7.3}
+val=a1.get(10)
+print(val)
+3.4
+print(type(val))
+<class 'float'>
+print(val,type(val))
+3.4 <class 'float'>
+val=a1.get(200)
+print(val,type(val))
+None <class 'NoneType'>
+None=65.34
+SyntaxError: cannot assign to None
+True=32
+SyntaxError: cannot assign to True
+False=65
+SyntaxError: cannot assign to False
+none=25.32
+print(none)
+25.32
+l1=list()
+t1=tuple()
+d1=dict()
+s1=set()
+
+
+n1=NoneType()
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    n1=NoneType()
+NameError: name 'NoneType' is not defined
